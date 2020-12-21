@@ -1,1 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-14T21:55:13+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Misung 입니다.</title><subtitle>Misung Kim. Student</subtitle><author><name>Misung</name><email>misungtoyou@gmail.com</email></author></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-12-21T23:47:02+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Misung 입니다.</title><subtitle>Misung Kim. Student</subtitle><author><name>Misung</name><email>misungtoyou@gmail.com</email></author><entry><title type="html">맥북에서 python 버전 업그레이드 하기</title><link href="http://localhost:4000/python-update/" rel="alternate" type="text/html" title="맥북에서 python 버전 업그레이드 하기" /><published>2020-12-21T00:00:00+09:00</published><updated>2020-12-21T00:00:00+09:00</updated><id>http://localhost:4000/python-update</id><content type="html" xml:base="http://localhost:4000/python-update/">&lt;p&gt;맥북은 python이 자동으로 깔려있습니다.
+2.7버전이 깔려있어 최신 버전 3.9로 업그레이드하기 위해 이것저것 만져보았습니다.&lt;/p&gt;
+
+&lt;h2 id=&quot;homebrew-설치&quot;&gt;Homebrew 설치&lt;/h2&gt;
+&lt;p&gt;맥과 리눅스를 위한 패키지 관리자입니다.
+터미널을 열어 아래의 코드를 붙여넣어 실행합니다.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/bin/bash -c &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Press RETURN ~ 메세지가 나오면 엔터를 누르고 기다리면 됩니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew help
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;help를 입력해서 명령방법이 출력되면 설치 완료!&lt;/p&gt;
+
+&lt;p&gt;Homebrew 공식 사이트: &lt;a href=&quot;https://brew.sh/index_ko&quot;&gt;https://brew.sh/index_ko&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;python3-설치&quot;&gt;python3 설치&lt;/h2&gt;
+&lt;p&gt;터미널을 열고 homebrew로 파이썬 설치&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew install python3
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;설치됐다는 문구가 뜨고, 확인을 위해 python을 입력해보면 원래 버전 2.7이 남아있는 경우가 있습니다.&lt;/p&gt;
+
+&lt;p&gt;그럴 때는 환경변수 파일을 직접 수정하면 해결이 되는데요,&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;vi ~/.profile
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;터미널에서 위 코드로 환경변수 파일을 열어줍니다.&lt;/p&gt;
+
+&lt;p&gt;Shift + d를 누르고 o(or i)를 눌러 아래의 코드를 입력해주면 설정완료&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;alias python='/usr/local/bin/python3'
+alias pip='/usr/local/bin/pip3'
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;저장을 위해 esc 누른뒤 :wq!를 입력해주세요&lt;/p&gt;
+
+&lt;p&gt;환경변수 파일을 나와서&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;source ~/.profile
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;로 다시 설정해주고 python 입력하면 new version 설치 확인!&lt;/p&gt;
+
+&lt;p&gt;&lt;img width=&quot;567&quot; alt=&quot;스크린샷 2020-12-21 오후 10 36 00&quot; src=&quot;https://user-images.githubusercontent.com/26542114/102784907-64ee3480-43e0-11eb-87b2-4ca1412fbd24.png&quot; /&gt;&lt;/p&gt;</content><author><name>Misung</name><email>misungtoyou@gmail.com</email></author><category term="python3" /><category term="맥북" /><category term="파이썬" /><category term="업그레이드" /><summary type="html">맥북은 python 최신 버전이 자동으로 깔려있습니다. 2.7버전이 깔려있어 최신 버전 3.9로 업그레이드하기 위해 이것저것 만져보았습니다.</summary></entry></feed>
