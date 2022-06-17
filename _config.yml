@@ -53,7 +53,7 @@ atom_feed:
   path: # blank (default) uses feed.xml
 search: true
 search_full_content: true
-search_provider: # lunr (default), algolia, google
+search_provider: lunr #(default), algolia, google
 algolia:
   application_id: # YOUR_APPLICATION_ID
   index_name: # YOUR_INDEX_NAME
@@ -63,7 +63,7 @@ google:
   search_engine_id: # YOUR_SEARCH_ENGINE_ID
   instant_search: # false (default), true
 # SEO Related
-google_site_verification: "1vJwVdomhQOlLkYC4NXmpr43StpfJl6EQsnNNKreRRI"
+google_site_verification:
 bing_site_verification:
 yandex_site_verification:
 naver_site_verification:
@@ -85,10 +85,10 @@ social:
 
 # Analytics
 analytics:
-  provider: false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: google # false (default),  "google-universal", "google-gtag", "custom"
   google:
-    tracking_id:
-    anonymize_ip: # true, false (default)
+    tracking_id: G-V49V6V144R
+    anonymize_ip: false
 
 # Site Author
 author:
