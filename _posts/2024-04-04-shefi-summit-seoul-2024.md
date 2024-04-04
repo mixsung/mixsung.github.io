@@ -1,6 +1,6 @@
 ---
 title: "SheFi Summit SEOUL 2024를 가다"
-excerpt: "The more I studied programming, I realized algorithms are really important. I think C language is never easy but essential part of programming."
+excerpt: "몇 년이 지난 지금, 왠지 모르게 주변에서 블록체인 해커톤, 행사 소식이 가깝게 들리고 Web 3.0으로 전환하는 프로젝트들이 보이기 시작했다. 블록체인에 대해 다시 공부하고 알아보고 행사가 있다면 가서 느끼고 싶었다."
 categories:
 tags: blockchain web3.0 SheFi SheFiSeoul
 
