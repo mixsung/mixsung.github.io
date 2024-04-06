@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://mixsung.github.io/sitemap.xml
+Sitemap: https://mixsung.github.io/
