@@ -1,12 +1,74 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "About"
+    url: /about/
+  - title: "Github"
+    url: "https://github.com/mixsung"
+  - title: "Category"
+    url: /categories/
+  - title: "Tags"
+    url: /tags/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+sidebar-category:
+  - title: Language
+    children:
+      - title: "C/C++"
+        url: "/c-cpp"
+        category: "c-cpp"
+
+      - title: "React"
+        url: "/react"
+        category: "react"
+
+  - title: 42Seoul
+    children:
+      - title: "본과정 (Inner Circle)"
+        url: "/inner-circule"
+        category: "inner-circule"
+
+      - title: "본과정 (Outer Circle)"
+        url: "/outer-circule"
+        category: "outer-circule"
+
+  - title: Algorithm
+    children:
+      - title: "백준"
+        url: "/baekjoon"
+        category: "baekjoon"
+      - title: "LeetCode"
+        url: "/leetcode"
+        category: "leetcode"
+
+  - title: 강의 후기
+    children:
+      - title: "Udemy"
+        url: "/udemy"
+        category: "udemy"
+      - title: "Coursera"
+        url: "/categories/coursera"
+        category: "coursera"
+      # - title: "대학공개강의 (KOCW)"
+      #   url: "/kocw"
+      #   category: "kocw"
+      # - title: "Youtube"
+      #   url: "/youtube"
+      #   category: "youtube"
+
+  - title: 외부활동
+    children:
+      - title: "컨퍼런스"
+        url: "categories/conference"
+        category: "conference"
+  - title: temp
+    children:
+      - title: "기타"
+        url: "/etc"
+        category: "etc"

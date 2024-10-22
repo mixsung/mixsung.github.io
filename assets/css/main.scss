@@ -6,3 +6,18 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.ascii-art {
+  font-family: Monaco, Consolas, "Lucida Console", monospace;
+  white-space: pre;
+  text-align: center;
+  font-size: 2vw;
+
+  //   @media (max-width: 600px) {
+  //     font-size: 5vw;
+  //   }
+
+  @media (min-width: 1024px) {
+    font-size: 1vw;
+  }
+}
