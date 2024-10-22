@@ -21,36 +21,36 @@ sidebar-category:
   - title: Language
     children:
       - title: "C/C++"
-        url: "/c-cpp"
+        url: "/categories/c-cpp"
         category: "c-cpp"
 
       - title: "React"
-        url: "/react"
+        url: "/categories/react"
         category: "react"
 
   - title: 42Seoul
     children:
       - title: "본과정 (Inner Circle)"
-        url: "/inner-circule"
+        url: "/categories/inner-circule"
         category: "inner-circule"
 
       - title: "본과정 (Outer Circle)"
-        url: "/outer-circule"
+        url: "/categories/outer-circule"
         category: "outer-circule"
 
   - title: Algorithm
     children:
       - title: "백준"
-        url: "/baekjoon"
-        category: "baekjoon"
+        url: "/categories/baekjoon"
+        category: "/categoriesbaekjoon"
       - title: "LeetCode"
-        url: "/leetcode"
+        url: "/categories/leetcode"
         category: "leetcode"
 
   - title: 강의 후기
     children:
       - title: "Udemy"
-        url: "/udemy"
+        url: "/categories/udemy"
         category: "udemy"
       - title: "Coursera"
         url: "/categories/coursera"
@@ -65,10 +65,10 @@ sidebar-category:
   - title: 외부활동
     children:
       - title: "컨퍼런스"
-        url: "categories/conference"
+        url: "/categories/conference"
         category: "conference"
   - title: temp
     children:
       - title: "기타"
-        url: "/etc"
+        url: "/categories/etc"
         category: "etc"
