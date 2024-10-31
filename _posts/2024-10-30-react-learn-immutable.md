@@ -169,7 +169,7 @@ React에서는 객체뿐만 아니라 state를 immutable로 취급해야합니�
 
 <p align="center" style="color:gray; text-align:center;">
   <!-- 마진은 위아래만 조절하는 것이 정신건강에 좋을 듯 하다. 이미지가 커지면 깨지는 경우가 있는 듯 하다.-->
-  <img src="assets/images/array.png" alt="updating-state-array" width="600"/>
+  <img src="https://github.com/user-attachments/assets/9a63cc15-ce53-44fb-9b45-9fd7c980b4db" alt="updating-state-array" width="600"/>
   <br>
   출처: React Learn 'Updating Arrays in State'
 </p>
